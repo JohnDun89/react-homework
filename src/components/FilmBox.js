@@ -3,7 +3,7 @@ import FilmList from './FilmList.js'
 
 class FilmBox extends React.Component {
   constructor(prop) {
-    super(prop)
+    super(prop);
 
     this.state = {
       films: [
@@ -18,7 +18,7 @@ class FilmBox extends React.Component {
   render() {
       return (
         <div className="Film-box">
-          <FilmList Films={ this.state.films }/>
+          <FilmList films={ this.state.films }/>
         </div>
       );
     }
